@@ -1,0 +1,17 @@
+# Environment Variable Management
+python-dotenv
+
+# web dev
+streamlit
+
+# LangChain 
+langchain
+langchain-core
+langchain-community
+langchain-chroma
+
+# Google Gemini (PaLM) Integration
+langchain-google-genai
+
+# vector database
+chromadb
