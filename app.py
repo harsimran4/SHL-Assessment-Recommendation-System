@@ -14,11 +14,6 @@ llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash-001", temperature=0.3)
 persist_directory = "chroma_db"
 db = Chroma(persist_directory=persist_directory, embedding_function=embedding_model)
 
-
-import streamlit as st
-import json
-import re
-
 def data_extraction(content):
     assessment_name_pattern = r"name:\s*(.*)"
     description_pattern = r"Description:\s*(.*)"
